@@ -1,5 +1,6 @@
 yum install epel-release -y
 yum install docker -y
+systemctl start docker
 yum install vim -y
 mkdir /apache
 cd /apache
